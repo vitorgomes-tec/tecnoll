@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JNF Black | Perfumaria & Cosméticos</title>
+
+    <meta
+      name="description"
+      content="JNF Black – Perfumes e cosméticos das melhores marcas. Compra segura direcionada aos sites oficiais."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon_io/favicon-32x32.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <h1 class="logo">JNF <span>BLACK</span></h1>
+        <nav>
+          <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#marcas">Marcas</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato" class="nav-cta">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero" data-slide="0">
+      <div class="container hero-content">
+        <h2>Perfumes <br />que marcam presença</h2>
+        <p>
+          As melhores marcas de perfumaria e cosméticos em um só lugar, com
+          direcionamento para compra segura nos sites oficiais.
+        </p>
+        <a href="#marcas" class="btn-primary">Explorar Marcas</a>
+      </div>
+    </section>
+
+    <section id="marcas" class="brands">
+      <div class="container">
+        <h2 class="section-title">Marcas Parceiras</h2>
+
+        <div class="brands-grid">
+          <div class="brand-card">
+            <h3>O Boticário</h3>
+            <a href="javascript:void(0)" onclick="openModal()">Comprar</a>
+          </div>
+
+          <div class="brand-card">
+            <h3>Eudora</h3>
+            <a
+              href="https://minhaloja.eudora.com.br/loja-noemytrindadearaujo-20440867"
+              target="_blank"
+              >Comprar</a
+            >
+          </div>
+
+          <div class="brand-card">
+            <h3>Quem Disse, Berenice?</h3>
+            <a
+              href="https://minhaloja.quemdisseberenice.com.br/loja-noemytrindadearaujo-20440867"
+              target="_blank"
+              >Comprar</a
+            >
+          </div>
+
+          <div class="brand-card">
+            <h3>O.U.I</h3>
+            <a
+              href="https://minhaloja.ouiparis.com/loja-noemytrindadearaujo-20440867"
+              target="_blank"
+              >Comprar</a
+            >
+          </div>
+
+          <div class="brand-card destaque">
+            <h3>Natura & Avon</h3>
+            <a
+              href="https://minhaloja.natura.com/consultoria/noemitrindadearaujo"
+              target="_blank"
+              >Comprar</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container features-grid">
+        <div class="feature">
+          <i class="fa-solid fa-gem"></i>
+          <h4>Produtos Originais</h4>
+          <p>Somente marcas reconhecidas no mercado.</p>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-lock"></i>
+          <h4>Compra Segura</h4>
+          <p>Você finaliza a compra no site oficial.</p>
+        </div>
+
+        <div class="feature">
+          <i class="fa-solid fa-headset"></i>
+          <h4>Atendimento Humano</h4>
+          <p>Auxílio na escolha do perfume ideal.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="about">
+      <div class="container">
+        <h2 class="section-title">Sobre a JNF Black</h2>
+        <p>
+          A JNF Black conecta você às principais marcas de perfumaria e
+          cosméticos do mercado. Nosso compromisso é oferecer uma experiência
+          segura, elegante e confiável, reunindo diversas marcas premium em um
+          só lugar.
+        </p>
+      </div>
+    </section>
+
+    <section id="contato" class="contact">
+      <div class="container contact-box">
+        <h2>Fale Conosco</h2>
+        <p>Atendimento rápido pelo WhatsApp</p>
+        <a
+          href="https://wa.me/5592993529256?text=Olá! Vim pelo site JNF Black 😊"
+          target="_blank"
+        >
+          <i class="fab fa-whatsapp"></i>
+          Iniciar Conversa
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 JNF Black – Perfumaria & Cosméticos</p>
+    </footer>
+
+    <!-- MODAL BOTICÁRIO -->
+    <div id="modalBoticario" class="modal">
+      <div class="modal-content">
+        <h3>Como deseja comprar?</h3>
+        <p>Escolha uma das opções abaixo para continuar</p>
+
+        <div class="modal-actions">
+          <a
+            href="https://wa.me/5592993529256?text=Olá! Gostaria de saber sobre um produto *O Boticário* em estoque 😊"
+            target="_blank"
+            class="btn-modal whatsapp"
+          >
+            Produto em estoque
+          </a>
+
+          <a
+            href="https://minhaloja.boticario.com.br/loja-noemytrindadearaujo-20440867"
+            target="_blank"
+            class="btn-modal site"
+          >
+            Site oficial
+          </a>
+        </div>
+
+        <button class="modal-close" onclick="closeModal()">×</button>
+      </div>
+    </div>
+
+    <script>
+      const modal = document.getElementById("modalBoticario");
+
+      function openModal() {
+        modal.style.display = "flex";
+      }
+
+      function closeModal() {
+        modal.style.display = "none";
+      }
+
+      // Fecha clicando fora
+      window.addEventListener("click", (e) => {
+        if (e.target === modal) {
+          closeModal();
+        }
+      });
+    </script>
+
+    <script>
+      const hero = document.querySelector(".hero");
+
+      const images = [
+        "assets/perfumes/perfume1.jpeg",
+        "assets/perfumes/perfume2.jpeg",
+        "assets/perfumes/perfume3.jpeg",
+        "assets/perfumes/perfume5.jpeg",
+      ];
+
+      let index = 0;
+
+      function changeBackground() {
+        hero.style.backgroundImage = `url('${images[index]}')`;
+
+        index = (index + 1) % images.length;
+      }
+
+      changeBackground(); // imagem inicial
+      setInterval(changeBackground, 5000); // troca a cada 5s
+    </script>
+  </body>
+</html>
